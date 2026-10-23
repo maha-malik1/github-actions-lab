@@ -1,0 +1,14 @@
+name: Student Information Workflow
+on:
+  push:
+
+jobs:
+  student-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Student Information
+        run: |
+          echo "Student Name: Your Name"
+          echo "Course: BS Cybersecurity"
+          echo "Semester: 6"
+          echo "University: Capital University of Science and Technology"
