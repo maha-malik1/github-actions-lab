@@ -1,0 +1,12 @@
+
+name: Welcome Workflow
+
+on:
+  push:
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Welcome Message
+        run: echo "Welcome! The student has pushed changes to GitHub."
